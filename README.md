@@ -25,7 +25,7 @@ to stem a single word.
 package main
 import (
 	"fmt"
-	"github.com/kljensen/snowball"
+	"github.com/Ernesto-Che-Guevara/snowball"
 )
 func main(){
 	stemmed, err := snowball.Stem("Accumulations", "english", true)
